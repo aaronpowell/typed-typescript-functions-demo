@@ -1,0 +1,1 @@
+A simple example of how to create an [Azure Function](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview?WT.mc_id=typedtypescriptfunctions-github-aapowell) in TypeScript with improved typings.

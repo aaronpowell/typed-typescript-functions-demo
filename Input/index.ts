@@ -10,6 +10,11 @@ interface InputFunctionContext extends Context {
     bindings: {
         myQueue: string[]
     }
+
+    res: {
+        status?: number
+        body: string
+    }
 }
 
 const httpTrigger: AzureFunction = async function (context: InputFunctionContext, req: InputHttpRequest): Promise<void> {
@@ -18,7 +23,9 @@ const httpTrigger: AzureFunction = async function (context: InputFunctionContext
 
     if (name) {
         context.bindings.myQueue = [`${name} was received`];
-        context.res = { };
+        context.res = {
+            body: "Message added to the queue"
+        };
     } else {
         context.res = {
             status: 400,

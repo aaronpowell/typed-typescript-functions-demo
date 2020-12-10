@@ -1,1 +1,1 @@
-A simple example of how to create an [Azure Function](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview?WT.mc_id=typedtypescriptfunctions-github-aapowell) in TypeScript with improved typings.
+A simple example of how to create an [Azure Function](https://docs.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=javascript-0000-aapowell) in TypeScript with improved typings.
